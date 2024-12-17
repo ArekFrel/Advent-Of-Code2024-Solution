@@ -1,15 +1,16 @@
 DAY = __file__[-5:-3]
 
-TEST = False
+SOLVE_PART = 2
+TEST = True
 if TEST:
     FILE = f'./inputs/input_{DAY}.txt'
 else:
     FILE = f'./inputs/test_input_{DAY}.txt'
-SOLVE_PART = 2
 
 
 def solve():
     first_list, second_list = [], []
+
     with open(FILE, 'r', encoding='utf-8-sig') as my_input:
         for line in my_input:
             first, second = line.rstrip().split('   ')
