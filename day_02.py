@@ -51,10 +51,7 @@ def is_inc_or_dec(numbers):
 
 
 def main():
-    # numbers = [1, 2, 3, 4, 5, 6]
-    # print(is_gradual([1, 2, 3, 7, 8, 9]))
-    # print(is_inc_or_dec([1, 2, 3, 5, 6, 7]))
-    # # solve()
+
     solve()
 
 
